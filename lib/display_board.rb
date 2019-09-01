@@ -9,8 +9,8 @@ def the_separators
 end
 
 def display_board
-  print the_rows, the_rows
-  print the_separators
+  print the_rows, the_rows, "\n"
+  puts the_separators
   puts the_rows
   puts the_separators
   puts the_rows
