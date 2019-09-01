@@ -1,7 +1,7 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 
 def the_rows
-  return "   |   |   "
+  return "   |   |   \n"
 end
   
 def the_separators
@@ -9,8 +9,8 @@ def the_separators
 end
 
 def display_board
-  print the_rows, the_rows, "\n"
-  print the_separators
+  print the_rows
+  puts the_separators
   puts the_rows
   puts the_separators
   puts the_rows
