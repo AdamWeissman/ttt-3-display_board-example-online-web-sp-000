@@ -10,7 +10,7 @@ end
 
 def display_board
   print the_rows
-  print the_separators
+  print the_separators, \n
   puts the_rows
   puts the_separators
   puts the_rows
