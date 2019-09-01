@@ -9,11 +9,11 @@ def the_separators
 end
 
 def display_board
-  the_rows
-  the_separators
-  the_rows
-  the_separators
-  the_rows
+  puts the_rows
+  puts the_separators
+  puts the_rows
+  puts the_separators
+  puts the_rows
 end
 
 display_board
