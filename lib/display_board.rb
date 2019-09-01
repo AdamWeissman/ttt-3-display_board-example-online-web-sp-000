@@ -15,3 +15,5 @@ def display_board
   the_separators
   the_rows
 end
+
+display_board
